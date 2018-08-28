@@ -7,11 +7,21 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-
 x-kinRank: "7"
 x-alexaRank: "385559"
 tags: Detaches
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/detaches/master/_listings/dezrez/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Dezrez.Rezi.Client.Api - Detaches a document from a brand.
+  x-api-slug: apibrandingiddetachdocument-put
+  description: Detaches a document from a brand..
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/detaches/master/_listings/dezrez/apibrandingiddetachdocument-put-openapi.md
 - name: Dezrez.Rezi.Client.Api - Detaches a document from a group
   x-api-slug: apigroupiddetachdocument-put
   description: Detaches a document from a group.

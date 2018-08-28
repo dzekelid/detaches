@@ -11,11 +11,24 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Detaches
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/detaches/master/_listings/aws-lightsale/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: AWS Lightsale API - Detach Static Ip
+  x-api-slug: actiondetachstaticip-get
+  description: |-
+    Detaches a static IP from the Amazon Lightsail instance to which it is
+          attached.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-lightsail.png
+  humanURL: https://amazonlightsail.com/
+  baseURL: :///
+  tags: Amazon Web Services, DNS, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/detaches/master/_listings/aws-lightsale/actiondetachstaticip-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.lambda.api.gallery.streamdata.io
